@@ -1,0 +1,5 @@
+    //clear all comments if any 
+$('ul').html('')
+    //Fills the ul list with the _comment.html.erb.partial  
+    //with each comment
+$('ul').append('<%= j render @comments %>'); 
